@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.pokemon {
+    display: grid;
+    justify-items: center;
+    background: rgb(221, 183, 183);
+}
+
+.inicio {
+    border: 3px dashed rgb(157, 18, 170);
+    padding: 0px 5px;
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center;
+    line-height: 0px;    
+}
+
+button {
+    margin: 5px;
+    width: 280px;
+}
+
+.botones {
+    display: grid;
+    background: rgb(168, 166, 166);
+}
+
+img {
+    border: 2px solid yellow;
+    margin: 10px;
+}
+
+.correcta {
+
+    background: blue;
+    border: 2px solid ;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px;
+}
+
+.incorrecta {
+    background: red;
+    border: 2px solid ;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px;
+}
